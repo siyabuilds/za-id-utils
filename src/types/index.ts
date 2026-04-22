@@ -1,5 +1,5 @@
 interface ValidParsedID {
-    isValid: boolean;
+    isValid: true;
     dateOfBirth: Date;
     gender: 'male' | 'female';
     citizenship: 'SA citizen' | 'permanent resident';
