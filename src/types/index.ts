@@ -1,4 +1,4 @@
-interface ParsedID {
+interface ValidParsedID {
     isValid: boolean;
     dateOfBirth: Date;
     gender: 'male' | 'female';
@@ -6,4 +6,9 @@ interface ParsedID {
     age: number;
 }
 
-export type { ParsedID };
+interface InvalidParsedID {
+    isValid: false;
+    errors: ("INVALID_DATE" | "INVALID_CHECKSUM" | "INVALID_LENGTH" | "INVALID_CITIZENSHIP")[]
+}
+
+export type ParsedID = ValidParsedID | InvalidParsedID;
