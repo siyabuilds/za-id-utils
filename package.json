@@ -28,7 +28,7 @@
     "url": "https://github.com/siyabuilds/za-id-utils/issues"
   },
   "homepage": "https://github.com/siyabuilds/za-id-utils#readme",
-  "dependencies": {
+  "devDependencies": {
     "typescript": "^6.0.3"
   }
 }
