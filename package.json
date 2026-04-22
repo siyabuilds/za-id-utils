@@ -1,0 +1,31 @@
+{
+  "name": "za-id-utils",
+  "version": "1.0.0",
+  "description": "A collection of utilities for working with South African ID numbers, including validation, parsing, and generation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siyabuilds/za-id-utils.git"
+  },
+  "keywords": [
+    "za-id-utils",
+    "south-african-id-utils",
+    "south-african-id-validator",
+    "south-african-id-parser",
+    "south-african-id-generator"
+  ],
+  "author": {
+    "name": "Samson Lukhele",
+    "email": "siyabonga.lukhele@umuzi.org",
+    "url": "https://samson.codes"
+  },
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/siyabuilds/za-id-utils/issues"
+  },
+  "homepage": "https://github.com/siyabuilds/za-id-utils#readme"
+}
