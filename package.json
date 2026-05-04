@@ -13,6 +13,13 @@
     "type": "git",
     "url": "git+https://github.com/siyabuilds/za-id-utils.git"
   },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "keywords": [
     "za-id-utils",
     "south-african-id-utils",
