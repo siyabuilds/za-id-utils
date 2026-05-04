@@ -20,3 +20,5 @@ const parseIDNumber = (idNumber: string):ParsedID => {
         };
     }
 }
+
+export default parseIDNumber;
