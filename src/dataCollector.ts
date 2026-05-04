@@ -63,4 +63,10 @@ const calculateAge = (dateOfBirth: Date): number => {
     return age;
 };
 
-export { getCitizenShip, parseDOB, calculateAge };
+const getGender = (idNumber: string): 'male' | 'female' => {
+    const genderDigits = Number(idNumber.slice(6, 10));
+
+    return genderDigits >= 5000 ? 'male' : 'female';
+};
+
+export { getCitizenShip, parseDOB, calculateAge, getGender };
