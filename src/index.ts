@@ -1,5 +1,5 @@
-import parseIDNumber from "@/parse.js";
-import { getCitizenShip, calculateAge, parseDOB, getGender} from "@/dataCollector.js";
+import parseIDNumber from "./parse.js";
+import { getCitizenShip, calculateAge, parseDOB, getGender} from "./dataCollector.js";
 
 export {
     parseIDNumber,
