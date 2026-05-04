@@ -1,6 +1,6 @@
 {
   "name": "za-id-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utilities for validating and parsing South African ID numbers.",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
@@ -20,7 +20,9 @@
       "types": "./dist/index.d.ts"
     }
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "za-id-utils",
     "south-african-id-utils",
