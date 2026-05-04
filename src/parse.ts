@@ -52,3 +52,5 @@ const parseIDNumber = (idNumber: string): ParsedID => {
     age: calculateAge(dob),
   };
 };
+
+export default parseIDNumber;
