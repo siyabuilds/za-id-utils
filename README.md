@@ -59,6 +59,22 @@ console.log(sanitizeSAID("900101-5009-087"));
 // "9001015009087"
 ```
 
+### Zod Integration
+
+If you use [Zod](https://zod.dev/) for schema validation, you can use the built-in South African ID validator:
+
+```ts
+import { z } from "zod";
+import { zSAID } from "za-id-utils/zod";
+
+const schema = z.object({
+  id: zSAID("Custom error message optional"),
+});
+
+// Validates and ensures it's a valid ID
+schema.parse({ id: "9001015009087" });
+```
+
 ---
 
 ## How it works
